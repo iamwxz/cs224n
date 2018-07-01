@@ -1,0 +1,6 @@
+*.pyproj
+assignment2/data/*
+.vs
+*.sln
+
+
