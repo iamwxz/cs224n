@@ -27,7 +27,7 @@ def softmax(x):
     dim_sample, dim_feature = x.shape
     col_shape = (dim_sample.value, 1)
     x_ = -tf.reshape(tf.reduce_max(x, 1), col_shape) + x
-    out = tf.exp(x_) / tf.reshape(tf.reduce_sum(tf.exp(x_), 1), col_shape), 
+    out = tf.exp(x_) / tf.reshape(tf.reduce_sum(tf.exp(x_), 1), col_shape) 
     ### END YOUR CODE
     
     return out
