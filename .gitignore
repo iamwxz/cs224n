@@ -3,3 +3,4 @@ assignment2/data/*
 .vs
 *.sln
 __pycache__
+*.pkl
